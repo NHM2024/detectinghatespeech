@@ -2,6 +2,15 @@
 # coding: utf-8
 
 # In[1]:
+import subprocess
+
+# Install NLTK if not already installed
+subprocess.call(['pip', 'install', 'nltk'])
+
+# Import NLTK after installation
+import nltk
+
+# Your Streamlit app code continues here
 
 
 import nltk
